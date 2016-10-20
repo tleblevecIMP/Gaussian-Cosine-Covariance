@@ -10,7 +10,7 @@ line_simulation<-function(range,freq,length,seed,N,ncell){
     sim = sim + cos(bin[i]*w[i]*dist+phase[i])
   }
   sim = sim *sqrt(2/N)
-  plot(dist,sim,type="l")
+  #plot(dist,sim,type="l")
   
   return(sim)
 }

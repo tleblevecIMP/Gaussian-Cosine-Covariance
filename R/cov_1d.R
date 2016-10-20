@@ -11,6 +11,5 @@ cov_1d<-function(data,size,ncell){
   }
   cov = (cov - mean(data)^2 )/ var(data) # we are measuring a correlation
   dist = (1:size)/ncell
-  plot(dist,cov,type="l")
   return(cov)
 }
