@@ -1,4 +1,5 @@
 # monte carlo simulation of the density associated as the gaussian cosine covariance
+# this distribution is the Fourier transform of the Gaussian cosine covariance
 # it is a mixture of gaussian funtions symmetric
 
 densi_simu<-function(N,range,freq){
