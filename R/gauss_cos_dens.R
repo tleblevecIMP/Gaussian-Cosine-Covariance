@@ -1,4 +1,5 @@
 # density associated with the fourier transform of the gaussian cosine covariance
+# this is its analytical formulation
 
 gauss_cos_dens<-function(x,range=1,freq=10){
 
