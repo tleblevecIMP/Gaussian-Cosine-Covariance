@@ -1,2 +1,2 @@
 # PGS_hole_effect
-Simulating hole effect indicator variograms with truncated gaussian functions
+This is a small code showing how to simulate a Gaussian cosine covariance in one dimension with the spectral method
